@@ -1,5 +1,8 @@
-import itemsTemplate from './templates/menu-item';
-import menu from './menu';
+import itemsTemplate from './templates/menu-item.hbs';
+import menu from './menu.json';
 
-// const item = itemsTemplate(menu);
-// console.log(item);
+const menuTemplate = itemsTemplate(menu);
+console.log(menuTemplate);
+
+const galleryRef = document.querySelector('.js-menu');
+galleryRef.insertAdjacentHTML('beforeend', menuTemplate);

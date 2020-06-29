@@ -1,2 +1,3 @@
 import './styles.css';
-import '../src/templating';
+import './templating.js';
+import './theme.js'
