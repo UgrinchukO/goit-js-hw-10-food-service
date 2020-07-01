@@ -9,16 +9,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/luxplanjay/webpack-starter-kit.git"
-  },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Oleg Ugrinchuk <ugrinchuko@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/luxplanjay/webpack-starter-kit/issues"
-  },
   "homepage": "https://UgrinchukO.github.io/goit-js-hw-10-food-service",
   "devDependencies": {
     "@babel/core": "^7.10.4",
